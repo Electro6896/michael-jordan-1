@@ -18,30 +18,25 @@ body {
 }
 
 .menu {
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
 }
-
 .links {
-    float: left;
-    color: black;
-    padding-top: 2px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
 }
 
 .links:hover {
-   color: white;
+    font-size: 25px;
+    text-decoration: underline;
 }
-
 .line {
     height: 6px;
     background-color: #000;
@@ -67,6 +62,12 @@ html {
     text-align: center;
     background-color: deeppink;
 }
+#MyInspiration a {
+     text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
 
 img {
     transition: transform .2s;
@@ -75,4 +76,36 @@ img {
 
 img:hover {
     transform: scale(0.9);
+}
+
+#contact {
+    background: firebrick;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+    font-size: 20px;
 }
